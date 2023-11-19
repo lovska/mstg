@@ -1,9 +1,10 @@
 import requests
-from TG import *
 from pprint import pprint
 import time
 import random
 
+URL = 'https://api.telegram.org/bot'
+TOKEN = 'СВОЙ ТОКЕН'
 
 offset = 0
 
